@@ -1,0 +1,2 @@
+# Region-
+#Region ;**** Directives created by AutoIt3Wrapper_GUI **** #AutoIt3Wrapper_UseX64=y #EndRegion ;**** Directives created by AutoIt3Wrapper_GUI ****  Opt("MustDeclareVars", 1)  #include &lt;GUIConstantsEx.au3> #include &lt;StaticConstants.au3> #include &lt;WindowsConstants.au3> #include "emgucv-autoit-bindings\cve_extra.au3"  #Region ### START Koda GUI section ### Form= Local $FormGUI = GUICreate("show image in autoit gui", 400, 400, 200, 200) Local $Pic = GUICtrlCreatePic("", 0, 0, 400, 400) GUISetState(@SW_SHOW) #EndRegion ### END Koda GUI section ###
